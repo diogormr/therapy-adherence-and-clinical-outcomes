@@ -1,0 +1,1001 @@
+patient_id,age,gender,condition
+1,60,M,Lower Back Pain
+2,53,M,Lower Back Pain
+3,62,F,Lower Back Pain
+4,73,F,Lower Back Pain
+5,52,M,Post-Op Shoulder
+6,52,F,Knee Osteoarthritis
+7,73,M,Knee Osteoarthritis
+8,64,F,Lower Back Pain
+9,49,F,Neck Pain
+10,61,F,Lower Back Pain
+11,49,F,Lower Back Pain
+12,49,F,Knee Osteoarthritis
+13,57,M,Lower Back Pain
+14,32,F,Lower Back Pain
+15,34,M,Knee Osteoarthritis
+16,48,F,Post-Op Shoulder
+17,42,F,Knee Osteoarthritis
+18,58,F,Post-Op Shoulder
+19,44,M,Neck Pain
+20,38,F,Lower Back Pain
+21,72,F,Lower Back Pain
+22,52,F,Lower Back Pain
+23,55,M,Knee Osteoarthritis
+24,37,M,Knee Osteoarthritis
+25,48,M,Neck Pain
+26,56,M,Post-Op Shoulder
+27,41,F,Knee Osteoarthritis
+28,59,M,Lower Back Pain
+29,47,F,Post-Op Shoulder
+30,51,M,Neck Pain
+31,47,M,Post-Op Shoulder
+32,77,F,Lower Back Pain
+33,54,F,Knee Osteoarthritis
+34,42,M,Lower Back Pain
+35,64,F,Lower Back Pain
+36,40,F,Lower Back Pain
+37,57,M,Knee Osteoarthritis
+38,31,Other,Knee Osteoarthritis
+39,39,F,Lower Back Pain
+40,57,F,Lower Back Pain
+41,63,M,Knee Osteoarthritis
+42,57,F,Lower Back Pain
+43,53,M,Lower Back Pain
+44,51,M,Knee Osteoarthritis
+45,37,M,Post-Op Shoulder
+46,46,M,Lower Back Pain
+47,49,F,Lower Back Pain
+48,67,F,Lower Back Pain
+49,59,F,Neck Pain
+50,33,M,Knee Osteoarthritis
+51,58,M,Knee Osteoarthritis
+52,50,M,Lower Back Pain
+53,46,Other,Knee Osteoarthritis
+54,62,M,Lower Back Pain
+55,67,F,Knee Osteoarthritis
+56,66,F,Neck Pain
+57,44,M,Knee Osteoarthritis
+58,51,F,Post-Op Shoulder
+59,58,M,Post-Op Shoulder
+60,66,F,Lower Back Pain
+61,49,F,Neck Pain
+62,52,M,Lower Back Pain
+63,41,M,Knee Osteoarthritis
+64,40,F,Lower Back Pain
+65,64,F,Lower Back Pain
+66,71,M,Knee Osteoarthritis
+67,54,F,Lower Back Pain
+68,67,F,Knee Osteoarthritis
+69,59,F,Knee Osteoarthritis
+70,47,M,Lower Back Pain
+71,59,F,Lower Back Pain
+72,73,F,Knee Osteoarthritis
+73,54,M,Lower Back Pain
+74,73,M,Post-Op Shoulder
+75,23,F,Knee Osteoarthritis
+76,64,M,Post-Op Shoulder
+77,56,F,Knee Osteoarthritis
+78,51,M,Knee Osteoarthritis
+79,56,M,Knee Osteoarthritis
+80,31,F,Lower Back Pain
+81,52,M,Lower Back Pain
+82,59,F,Post-Op Shoulder
+83,72,M,Knee Osteoarthritis
+84,48,F,Post-Op Shoulder
+85,45,M,Post-Op Shoulder
+86,48,M,Post-Op Shoulder
+87,65,F,Neck Pain
+88,58,M,Knee Osteoarthritis
+89,48,F,Lower Back Pain
+90,61,M,Knee Osteoarthritis
+91,56,F,Lower Back Pain
+92,66,M,Knee Osteoarthritis
+93,46,F,Post-Op Shoulder
+94,51,M,Knee Osteoarthritis
+95,50,M,Lower Back Pain
+96,37,M,Lower Back Pain
+97,58,M,Knee Osteoarthritis
+98,58,F,Lower Back Pain
+99,55,M,Post-Op Shoulder
+100,52,F,Lower Back Pain
+101,38,M,Lower Back Pain
+102,49,M,Lower Back Pain
+103,50,F,Knee Osteoarthritis
+104,45,F,Knee Osteoarthritis
+105,53,M,Lower Back Pain
+106,59,M,Lower Back Pain
+107,77,M,Knee Osteoarthritis
+108,57,F,Lower Back Pain
+109,58,F,Knee Osteoarthritis
+110,54,M,Knee Osteoarthritis
+111,31,F,Lower Back Pain
+112,54,F,Lower Back Pain
+113,55,F,Neck Pain
+114,84,F,Knee Osteoarthritis
+115,52,M,Knee Osteoarthritis
+116,58,M,Lower Back Pain
+117,54,M,Knee Osteoarthritis
+118,40,M,Lower Back Pain
+119,68,F,Knee Osteoarthritis
+120,64,F,Neck Pain
+121,64,M,Lower Back Pain
+122,44,M,Lower Back Pain
+123,71,M,Lower Back Pain
+124,38,F,Lower Back Pain
+125,62,M,Lower Back Pain
+126,81,F,Lower Back Pain
+127,43,M,Post-Op Shoulder
+128,48,M,Knee Osteoarthritis
+129,56,Other,Lower Back Pain
+130,48,F,Neck Pain
+131,36,M,Lower Back Pain
+132,55,F,Neck Pain
+133,42,F,Lower Back Pain
+134,60,F,Post-Op Shoulder
+135,43,M,Knee Osteoarthritis
+136,73,F,Post-Op Shoulder
+137,45,M,Neck Pain
+138,51,F,Lower Back Pain
+139,64,M,Neck Pain
+140,40,M,Lower Back Pain
+141,57,M,Lower Back Pain
+142,70,F,Lower Back Pain
+143,35,M,Knee Osteoarthritis
+144,57,F,Lower Back Pain
+145,58,F,Knee Osteoarthritis
+146,64,M,Knee Osteoarthritis
+147,40,F,Post-Op Shoulder
+148,39,M,Post-Op Shoulder
+149,61,F,Knee Osteoarthritis
+150,58,M,Lower Back Pain
+151,58,F,Lower Back Pain
+152,59,F,Lower Back Pain
+153,46,F,Lower Back Pain
+154,57,F,Lower Back Pain
+155,58,M,Lower Back Pain
+156,46,F,Neck Pain
+157,77,F,Knee Osteoarthritis
+158,60,F,Lower Back Pain
+159,40,M,Knee Osteoarthritis
+160,62,F,Lower Back Pain
+161,43,F,Knee Osteoarthritis
+162,64,F,Knee Osteoarthritis
+163,68,M,Knee Osteoarthritis
+164,45,F,Knee Osteoarthritis
+165,66,M,Neck Pain
+166,59,F,Post-Op Shoulder
+167,64,M,Knee Osteoarthritis
+168,77,F,Knee Osteoarthritis
+169,52,Other,Knee Osteoarthritis
+170,45,M,Lower Back Pain
+171,44,F,Lower Back Pain
+172,45,M,Lower Back Pain
+173,54,F,Knee Osteoarthritis
+174,59,F,Knee Osteoarthritis
+175,58,F,Lower Back Pain
+176,64,F,Neck Pain
+177,55,F,Neck Pain
+178,72,M,Post-Op Shoulder
+179,51,M,Knee Osteoarthritis
+180,87,F,Post-Op Shoulder
+181,62,F,Lower Back Pain
+182,44,F,Post-Op Shoulder
+183,42,F,Lower Back Pain
+184,60,M,Post-Op Shoulder
+185,52,F,Lower Back Pain
+186,63,M,Post-Op Shoulder
+187,60,F,Neck Pain
+188,54,M,Lower Back Pain
+189,44,M,Knee Osteoarthritis
+190,36,M,Neck Pain
+191,49,M,Knee Osteoarthritis
+192,65,F,Post-Op Shoulder
+193,57,M,Knee Osteoarthritis
+194,40,M,Lower Back Pain
+195,57,M,Lower Back Pain
+196,59,M,Lower Back Pain
+197,44,M,Post-Op Shoulder
+198,56,M,Lower Back Pain
+199,55,F,Knee Osteoarthritis
+200,41,F,Knee Osteoarthritis
+201,59,F,Knee Osteoarthritis
+202,61,M,Post-Op Shoulder
+203,67,M,Neck Pain
+204,67,F,Knee Osteoarthritis
+205,38,F,Post-Op Shoulder
+206,43,M,Post-Op Shoulder
+207,61,M,Knee Osteoarthritis
+208,61,M,Neck Pain
+209,61,M,Lower Back Pain
+210,101,M,Lower Back Pain
+211,61,F,Post-Op Shoulder
+212,68,F,Knee Osteoarthritis
+213,66,F,Post-Op Shoulder
+214,62,F,Post-Op Shoulder
+215,51,F,Lower Back Pain
+216,64,F,Post-Op Shoulder
+217,45,F,Knee Osteoarthritis
+218,52,M,Knee Osteoarthritis
+219,49,M,Knee Osteoarthritis
+220,55,M,Neck Pain
+221,82,F,Lower Back Pain
+222,32,F,Knee Osteoarthritis
+223,63,M,Knee Osteoarthritis
+224,35,F,Post-Op Shoulder
+225,49,M,Knee Osteoarthritis
+226,68,F,Lower Back Pain
+227,55,M,Lower Back Pain
+228,42,M,Lower Back Pain
+229,46,M,Post-Op Shoulder
+230,63,M,Lower Back Pain
+231,46,M,Lower Back Pain
+232,57,M,Neck Pain
+233,55,F,Lower Back Pain
+234,47,F,Neck Pain
+235,80,M,Knee Osteoarthritis
+236,62,F,Post-Op Shoulder
+237,30,F,Lower Back Pain
+238,57,M,Lower Back Pain
+239,47,M,Post-Op Shoulder
+240,65,M,Post-Op Shoulder
+241,45,M,Post-Op Shoulder
+242,53,F,Lower Back Pain
+243,61,M,Post-Op Shoulder
+244,65,F,Post-Op Shoulder
+245,40,F,Knee Osteoarthritis
+246,50,M,Post-Op Shoulder
+247,49,F,Post-Op Shoulder
+248,47,M,Knee Osteoarthritis
+249,76,F,Lower Back Pain
+250,59,M,Knee Osteoarthritis
+251,39,F,Lower Back Pain
+252,66,F,Knee Osteoarthritis
+253,80,M,Knee Osteoarthritis
+254,67,F,Lower Back Pain
+255,36,F,Lower Back Pain
+256,49,F,Lower Back Pain
+257,70,F,Post-Op Shoulder
+258,46,F,Neck Pain
+259,60,M,Lower Back Pain
+260,64,M,Neck Pain
+261,43,F,Knee Osteoarthritis
+262,54,M,Lower Back Pain
+263,16,F,Lower Back Pain
+264,42,F,Knee Osteoarthritis
+265,51,M,Post-Op Shoulder
+266,40,M,Post-Op Shoulder
+267,74,F,Lower Back Pain
+268,37,M,Lower Back Pain
+269,49,F,Knee Osteoarthritis
+270,56,M,Lower Back Pain
+271,72,F,Lower Back Pain
+272,37,M,Lower Back Pain
+273,68,F,Post-Op Shoulder
+274,55,M,Neck Pain
+275,43,F,Knee Osteoarthritis
+276,60,M,Neck Pain
+277,57,F,Lower Back Pain
+278,47,F,Knee Osteoarthritis
+279,55,M,Lower Back Pain
+280,50,M,Knee Osteoarthritis
+281,56,M,Neck Pain
+282,62,F,Knee Osteoarthritis
+283,74,F,Lower Back Pain
+284,40,F,Knee Osteoarthritis
+285,80,M,Lower Back Pain
+286,31,M,Post-Op Shoulder
+287,53,F,Knee Osteoarthritis
+288,62,M,Knee Osteoarthritis
+289,58,Other,Knee Osteoarthritis
+290,47,M,Knee Osteoarthritis
+291,52,F,Lower Back Pain
+292,49,M,Knee Osteoarthritis
+293,47,M,Lower Back Pain
+294,65,F,Post-Op Shoulder
+295,59,F,Post-Op Shoulder
+296,46,Other,Post-Op Shoulder
+297,65,M,Knee Osteoarthritis
+298,58,M,Knee Osteoarthritis
+299,64,F,Lower Back Pain
+300,62,F,Post-Op Shoulder
+301,45,M,Lower Back Pain
+302,48,M,Knee Osteoarthritis
+303,63,M,Lower Back Pain
+304,62,F,Lower Back Pain
+305,54,M,Knee Osteoarthritis
+306,56,M,Lower Back Pain
+307,70,M,Post-Op Shoulder
+308,47,M,Lower Back Pain
+309,61,M,Lower Back Pain
+310,52,F,Knee Osteoarthritis
+311,52,M,Lower Back Pain
+312,68,F,Lower Back Pain
+313,64,M,Post-Op Shoulder
+314,64,F,Lower Back Pain
+315,70,F,Post-Op Shoulder
+316,55,F,Lower Back Pain
+317,63,F,Lower Back Pain
+318,51,M,Post-Op Shoulder
+319,58,M,Lower Back Pain
+320,53,F,Lower Back Pain
+321,56,Other,Lower Back Pain
+322,62,F,Lower Back Pain
+323,45,F,Post-Op Shoulder
+324,80,F,Lower Back Pain
+325,42,M,Post-Op Shoulder
+326,40,M,Post-Op Shoulder
+327,68,F,Knee Osteoarthritis
+328,64,F,Neck Pain
+329,62,M,Lower Back Pain
+330,62,F,Neck Pain
+331,54,M,Lower Back Pain
+332,44,F,Knee Osteoarthritis
+333,55,M,Knee Osteoarthritis
+334,46,M,Lower Back Pain
+335,66,F,Knee Osteoarthritis
+336,53,M,Post-Op Shoulder
+337,45,F,Lower Back Pain
+338,51,F,Lower Back Pain
+339,59,F,Post-Op Shoulder
+340,48,M,Knee Osteoarthritis
+341,45,M,Neck Pain
+342,57,M,Post-Op Shoulder
+343,57,Other,Neck Pain
+344,48,F,Post-Op Shoulder
+345,49,F,Lower Back Pain
+346,57,F,Lower Back Pain
+347,37,F,Post-Op Shoulder
+348,38,F,Knee Osteoarthritis
+349,46,M,Lower Back Pain
+350,52,F,Lower Back Pain
+351,58,M,Neck Pain
+352,72,F,Knee Osteoarthritis
+353,65,F,Knee Osteoarthritis
+354,53,F,Knee Osteoarthritis
+355,54,M,Lower Back Pain
+356,42,M,Lower Back Pain
+357,54,M,Lower Back Pain
+358,51,M,Lower Back Pain
+359,58,M,Post-Op Shoulder
+360,45,F,Knee Osteoarthritis
+361,61,F,Post-Op Shoulder
+362,73,M,Post-Op Shoulder
+363,53,M,Lower Back Pain
+364,59,M,Knee Osteoarthritis
+365,63,F,Knee Osteoarthritis
+366,50,F,Post-Op Shoulder
+367,57,F,Lower Back Pain
+368,55,M,Knee Osteoarthritis
+369,56,Other,Knee Osteoarthritis
+370,45,F,Lower Back Pain
+371,55,M,Lower Back Pain
+372,60,F,Knee Osteoarthritis
+373,72,M,Post-Op Shoulder
+374,66,F,Lower Back Pain
+375,80,M,Knee Osteoarthritis
+376,45,F,Lower Back Pain
+377,65,F,Post-Op Shoulder
+378,57,F,Lower Back Pain
+379,81,F,Post-Op Shoulder
+380,45,M,Lower Back Pain
+381,44,M,Lower Back Pain
+382,47,M,Lower Back Pain
+383,29,M,Lower Back Pain
+384,48,F,Knee Osteoarthritis
+385,45,M,Lower Back Pain
+386,56,F,Post-Op Shoulder
+387,59,F,Lower Back Pain
+388,77,F,Lower Back Pain
+389,66,M,Lower Back Pain
+390,48,F,Lower Back Pain
+391,44,F,Lower Back Pain
+392,60,M,Knee Osteoarthritis
+393,39,F,Knee Osteoarthritis
+394,76,F,Knee Osteoarthritis
+395,69,M,Knee Osteoarthritis
+396,49,F,Knee Osteoarthritis
+397,34,M,Lower Back Pain
+398,71,M,Knee Osteoarthritis
+399,53,M,Neck Pain
+400,69,M,Knee Osteoarthritis
+401,35,M,Knee Osteoarthritis
+402,47,M,Lower Back Pain
+403,55,F,Post-Op Shoulder
+404,55,F,Post-Op Shoulder
+405,49,F,Knee Osteoarthritis
+406,62,M,Neck Pain
+407,42,M,Lower Back Pain
+408,53,F,Lower Back Pain
+409,56,M,Post-Op Shoulder
+410,61,M,Post-Op Shoulder
+411,63,F,Lower Back Pain
+412,41,M,Lower Back Pain
+413,36,F,Lower Back Pain
+414,70,F,Lower Back Pain
+415,58,M,Post-Op Shoulder
+416,46,M,Knee Osteoarthritis
+417,73,F,Lower Back Pain
+418,56,M,Lower Back Pain
+419,69,M,Lower Back Pain
+420,55,Other,Lower Back Pain
+421,79,M,Knee Osteoarthritis
+422,76,F,Neck Pain
+423,52,Other,Post-Op Shoulder
+424,66,M,Lower Back Pain
+425,62,M,Post-Op Shoulder
+426,71,M,Post-Op Shoulder
+427,43,M,Post-Op Shoulder
+428,63,M,Knee Osteoarthritis
+429,67,F,Lower Back Pain
+430,33,M,Lower Back Pain
+431,40,F,Lower Back Pain
+432,30,Other,Lower Back Pain
+433,51,F,Lower Back Pain
+434,63,F,Knee Osteoarthritis
+435,73,M,Post-Op Shoulder
+436,55,F,Knee Osteoarthritis
+437,74,F,Lower Back Pain
+438,38,M,Neck Pain
+439,34,M,Neck Pain
+440,54,F,Post-Op Shoulder
+441,59,M,Neck Pain
+442,54,M,Knee Osteoarthritis
+443,30,M,Neck Pain
+444,53,M,Lower Back Pain
+445,39,F,Lower Back Pain
+446,63,F,Lower Back Pain
+447,59,F,Lower Back Pain
+448,43,M,Lower Back Pain
+449,48,M,Knee Osteoarthritis
+450,42,M,Post-Op Shoulder
+451,54,M,Knee Osteoarthritis
+452,66,M,Lower Back Pain
+453,43,F,Post-Op Shoulder
+454,61,M,Knee Osteoarthritis
+455,48,F,Lower Back Pain
+456,45,M,Knee Osteoarthritis
+457,53,M,Lower Back Pain
+458,42,M,Lower Back Pain
+459,48,F,Neck Pain
+460,40,F,Lower Back Pain
+461,78,F,Knee Osteoarthritis
+462,55,M,Post-Op Shoulder
+463,46,M,Post-Op Shoulder
+464,57,F,Lower Back Pain
+465,53,M,Lower Back Pain
+466,52,F,Lower Back Pain
+467,62,M,Knee Osteoarthritis
+468,64,M,Knee Osteoarthritis
+469,48,M,Lower Back Pain
+470,48,M,Neck Pain
+471,51,F,Knee Osteoarthritis
+472,27,M,Lower Back Pain
+473,36,M,Knee Osteoarthritis
+474,71,M,Knee Osteoarthritis
+475,74,M,Lower Back Pain
+476,52,F,Lower Back Pain
+477,61,F,Post-Op Shoulder
+478,58,F,Knee Osteoarthritis
+479,91,F,Knee Osteoarthritis
+480,68,M,Knee Osteoarthritis
+481,53,F,Lower Back Pain
+482,43,M,Lower Back Pain
+483,35,M,Knee Osteoarthritis
+484,57,F,Lower Back Pain
+485,45,M,Lower Back Pain
+486,37,F,Post-Op Shoulder
+487,47,M,Neck Pain
+488,42,F,Post-Op Shoulder
+489,75,F,Post-Op Shoulder
+490,65,F,Lower Back Pain
+491,54,F,Neck Pain
+492,72,F,Lower Back Pain
+493,55,M,Neck Pain
+494,44,F,Neck Pain
+495,73,M,Post-Op Shoulder
+496,61,F,Neck Pain
+497,42,F,Knee Osteoarthritis
+498,52,F,Lower Back Pain
+499,44,M,Knee Osteoarthritis
+500,38,M,Knee Osteoarthritis
+501,66,F,Lower Back Pain
+502,77,M,Knee Osteoarthritis
+503,38,M,Neck Pain
+504,61,M,Lower Back Pain
+505,47,F,Post-Op Shoulder
+506,49,F,Neck Pain
+507,47,M,Neck Pain
+508,44,M,Neck Pain
+509,55,M,Knee Osteoarthritis
+510,45,F,Neck Pain
+511,58,F,Post-Op Shoulder
+512,54,M,Lower Back Pain
+513,52,M,Knee Osteoarthritis
+514,44,M,Post-Op Shoulder
+515,48,F,Lower Back Pain
+516,64,F,Knee Osteoarthritis
+517,61,M,Knee Osteoarthritis
+518,43,M,Lower Back Pain
+519,56,M,Knee Osteoarthritis
+520,64,F,Post-Op Shoulder
+521,34,M,Knee Osteoarthritis
+522,61,F,Lower Back Pain
+523,47,F,Lower Back Pain
+524,61,M,Lower Back Pain
+525,45,M,Neck Pain
+526,33,M,Lower Back Pain
+527,35,F,Knee Osteoarthritis
+528,55,F,Lower Back Pain
+529,58,F,Lower Back Pain
+530,44,F,Post-Op Shoulder
+531,62,M,Post-Op Shoulder
+532,35,F,Lower Back Pain
+533,54,F,Knee Osteoarthritis
+534,40,M,Lower Back Pain
+535,47,F,Knee Osteoarthritis
+536,55,F,Knee Osteoarthritis
+537,44,F,Lower Back Pain
+538,50,F,Lower Back Pain
+539,67,F,Lower Back Pain
+540,48,F,Neck Pain
+541,65,M,Neck Pain
+542,41,M,Lower Back Pain
+543,61,F,Post-Op Shoulder
+544,72,M,Lower Back Pain
+545,25,M,Lower Back Pain
+546,45,M,Post-Op Shoulder
+547,61,M,Neck Pain
+548,52,F,Neck Pain
+549,59,F,Knee Osteoarthritis
+550,47,M,Lower Back Pain
+551,56,M,Post-Op Shoulder
+552,53,M,Lower Back Pain
+553,69,F,Knee Osteoarthritis
+554,58,F,Lower Back Pain
+555,59,M,Knee Osteoarthritis
+556,50,F,Lower Back Pain
+557,49,F,Lower Back Pain
+558,49,F,Neck Pain
+559,59,F,Lower Back Pain
+560,49,M,Knee Osteoarthritis
+561,58,F,Lower Back Pain
+562,79,M,Lower Back Pain
+563,65,F,Lower Back Pain
+564,51,F,Lower Back Pain
+565,69,F,Post-Op Shoulder
+566,50,F,Lower Back Pain
+567,30,M,Neck Pain
+568,42,F,Knee Osteoarthritis
+569,32,Other,Knee Osteoarthritis
+570,50,F,Knee Osteoarthritis
+571,55,M,Knee Osteoarthritis
+572,75,M,Post-Op Shoulder
+573,58,M,Lower Back Pain
+574,52,F,Lower Back Pain
+575,64,F,Post-Op Shoulder
+576,28,M,Neck Pain
+577,57,F,Post-Op Shoulder
+578,64,F,Knee Osteoarthritis
+579,37,F,Post-Op Shoulder
+580,68,F,Knee Osteoarthritis
+581,59,F,Knee Osteoarthritis
+582,50,F,Lower Back Pain
+583,62,M,Knee Osteoarthritis
+584,82,F,Lower Back Pain
+585,57,F,Lower Back Pain
+586,57,F,Post-Op Shoulder
+587,49,F,Lower Back Pain
+588,44,F,Lower Back Pain
+589,64,M,Lower Back Pain
+590,44,M,Neck Pain
+591,55,M,Knee Osteoarthritis
+592,49,M,Knee Osteoarthritis
+593,60,F,Post-Op Shoulder
+594,59,Other,Post-Op Shoulder
+595,67,M,Lower Back Pain
+596,48,M,Knee Osteoarthritis
+597,51,F,Post-Op Shoulder
+598,43,M,Knee Osteoarthritis
+599,49,F,Lower Back Pain
+600,59,F,Post-Op Shoulder
+601,64,F,Knee Osteoarthritis
+602,43,M,Lower Back Pain
+603,65,M,Knee Osteoarthritis
+604,71,F,Lower Back Pain
+605,59,F,Lower Back Pain
+606,77,M,Post-Op Shoulder
+607,45,F,Lower Back Pain
+608,40,M,Knee Osteoarthritis
+609,33,F,Knee Osteoarthritis
+610,72,M,Lower Back Pain
+611,62,F,Neck Pain
+612,54,M,Lower Back Pain
+613,58,M,Lower Back Pain
+614,41,M,Lower Back Pain
+615,84,M,Lower Back Pain
+616,56,F,Lower Back Pain
+617,56,Other,Post-Op Shoulder
+618,63,M,Neck Pain
+619,60,M,Lower Back Pain
+620,57,F,Knee Osteoarthritis
+621,45,F,Post-Op Shoulder
+622,60,F,Post-Op Shoulder
+623,77,M,Knee Osteoarthritis
+624,71,M,Lower Back Pain
+625,74,F,Lower Back Pain
+626,48,M,Post-Op Shoulder
+627,43,F,Post-Op Shoulder
+628,53,M,Lower Back Pain
+629,55,F,Lower Back Pain
+630,68,M,Neck Pain
+631,34,F,Post-Op Shoulder
+632,73,M,Neck Pain
+633,53,F,Post-Op Shoulder
+634,49,M,Lower Back Pain
+635,42,F,Knee Osteoarthritis
+636,35,F,Knee Osteoarthritis
+637,64,F,Lower Back Pain
+638,55,F,Knee Osteoarthritis
+639,39,F,Post-Op Shoulder
+640,39,F,Lower Back Pain
+641,50,M,Post-Op Shoulder
+642,75,F,Knee Osteoarthritis
+643,51,M,Neck Pain
+644,36,M,Lower Back Pain
+645,52,M,Lower Back Pain
+646,51,M,Knee Osteoarthritis
+647,22,F,Lower Back Pain
+648,54,F,Post-Op Shoulder
+649,52,F,Post-Op Shoulder
+650,63,F,Lower Back Pain
+651,77,M,Knee Osteoarthritis
+652,68,M,Knee Osteoarthritis
+653,51,M,Lower Back Pain
+654,41,M,Neck Pain
+655,85,M,Post-Op Shoulder
+656,55,M,Knee Osteoarthritis
+657,55,F,Post-Op Shoulder
+658,54,F,Knee Osteoarthritis
+659,57,Other,Neck Pain
+660,53,F,Knee Osteoarthritis
+661,48,F,Post-Op Shoulder
+662,48,M,Post-Op Shoulder
+663,54,F,Lower Back Pain
+664,48,F,Post-Op Shoulder
+665,46,M,Lower Back Pain
+666,56,M,Lower Back Pain
+667,51,F,Lower Back Pain
+668,73,M,Neck Pain
+669,23,F,Post-Op Shoulder
+670,68,F,Post-Op Shoulder
+671,69,M,Post-Op Shoulder
+672,30,M,Knee Osteoarthritis
+673,50,M,Neck Pain
+674,50,M,Knee Osteoarthritis
+675,38,M,Lower Back Pain
+676,45,F,Lower Back Pain
+677,41,M,Post-Op Shoulder
+678,76,F,Post-Op Shoulder
+679,66,M,Lower Back Pain
+680,70,F,Lower Back Pain
+681,63,M,Post-Op Shoulder
+682,41,M,Lower Back Pain
+683,48,F,Post-Op Shoulder
+684,60,F,Neck Pain
+685,40,M,Knee Osteoarthritis
+686,63,F,Lower Back Pain
+687,52,M,Post-Op Shoulder
+688,50,M,Post-Op Shoulder
+689,63,M,Knee Osteoarthritis
+690,60,M,Neck Pain
+691,50,F,Lower Back Pain
+692,68,M,Knee Osteoarthritis
+693,42,M,Post-Op Shoulder
+694,62,F,Post-Op Shoulder
+695,62,F,Lower Back Pain
+696,51,M,Post-Op Shoulder
+697,58,F,Knee Osteoarthritis
+698,39,M,Lower Back Pain
+699,66,F,Lower Back Pain
+700,52,F,Post-Op Shoulder
+701,48,F,Lower Back Pain
+702,67,M,Lower Back Pain
+703,46,M,Lower Back Pain
+704,38,M,Post-Op Shoulder
+705,36,M,Knee Osteoarthritis
+706,62,M,Post-Op Shoulder
+707,39,F,Lower Back Pain
+708,76,M,Knee Osteoarthritis
+709,30,M,Knee Osteoarthritis
+710,75,F,Post-Op Shoulder
+711,57,M,Neck Pain
+712,53,F,Lower Back Pain
+713,48,M,Knee Osteoarthritis
+714,59,M,Lower Back Pain
+715,54,M,Knee Osteoarthritis
+716,68,M,Lower Back Pain
+717,56,F,Lower Back Pain
+718,56,M,Lower Back Pain
+719,50,F,Knee Osteoarthritis
+720,54,M,Lower Back Pain
+721,58,M,Post-Op Shoulder
+722,34,F,Knee Osteoarthritis
+723,38,M,Lower Back Pain
+724,63,F,Post-Op Shoulder
+725,57,F,Lower Back Pain
+726,52,F,Knee Osteoarthritis
+727,55,F,Knee Osteoarthritis
+728,59,M,Lower Back Pain
+729,48,M,Lower Back Pain
+730,45,M,Lower Back Pain
+731,57,F,Neck Pain
+732,43,Other,Knee Osteoarthritis
+733,59,M,Knee Osteoarthritis
+734,34,F,Knee Osteoarthritis
+735,67,M,Lower Back Pain
+736,60,F,Knee Osteoarthritis
+737,58,M,Post-Op Shoulder
+738,66,F,Lower Back Pain
+739,74,F,Lower Back Pain
+740,67,M,Lower Back Pain
+741,32,M,Knee Osteoarthritis
+742,39,M,Neck Pain
+743,47,M,Lower Back Pain
+744,55,M,Knee Osteoarthritis
+745,61,F,Lower Back Pain
+746,46,F,Neck Pain
+747,57,F,Lower Back Pain
+748,45,M,Knee Osteoarthritis
+749,47,F,Post-Op Shoulder
+750,38,F,Post-Op Shoulder
+751,43,M,Knee Osteoarthritis
+752,38,F,Lower Back Pain
+753,43,F,Lower Back Pain
+754,67,M,Lower Back Pain
+755,43,M,Lower Back Pain
+756,86,M,Knee Osteoarthritis
+757,60,M,Lower Back Pain
+758,57,F,Lower Back Pain
+759,44,F,Knee Osteoarthritis
+760,63,F,Neck Pain
+761,48,M,Knee Osteoarthritis
+762,56,M,Lower Back Pain
+763,85,F,Lower Back Pain
+764,53,F,Neck Pain
+765,68,M,Lower Back Pain
+766,46,F,Lower Back Pain
+767,54,F,Knee Osteoarthritis
+768,76,M,Knee Osteoarthritis
+769,47,M,Knee Osteoarthritis
+770,76,F,Lower Back Pain
+771,63,M,Lower Back Pain
+772,48,M,Neck Pain
+773,62,M,Lower Back Pain
+774,66,M,Knee Osteoarthritis
+775,62,F,Post-Op Shoulder
+776,36,F,Knee Osteoarthritis
+777,46,M,Lower Back Pain
+778,52,F,Lower Back Pain
+779,54,F,Knee Osteoarthritis
+780,62,F,Post-Op Shoulder
+781,57,M,Neck Pain
+782,38,M,Lower Back Pain
+783,59,Other,Lower Back Pain
+784,62,F,Neck Pain
+785,61,M,Post-Op Shoulder
+786,67,M,Post-Op Shoulder
+787,65,M,Lower Back Pain
+788,60,F,Knee Osteoarthritis
+789,54,F,Post-Op Shoulder
+790,35,M,Knee Osteoarthritis
+791,60,M,Knee Osteoarthritis
+792,57,F,Lower Back Pain
+793,58,F,Knee Osteoarthritis
+794,39,M,Lower Back Pain
+795,42,F,Knee Osteoarthritis
+796,67,F,Neck Pain
+797,54,M,Lower Back Pain
+798,63,F,Post-Op Shoulder
+799,55,M,Lower Back Pain
+800,55,F,Knee Osteoarthritis
+801,66,F,Neck Pain
+802,48,F,Lower Back Pain
+803,56,F,Lower Back Pain
+804,49,M,Knee Osteoarthritis
+805,49,F,Lower Back Pain
+806,51,F,Post-Op Shoulder
+807,57,M,Neck Pain
+808,49,F,Knee Osteoarthritis
+809,70,F,Lower Back Pain
+810,44,M,Knee Osteoarthritis
+811,52,F,Post-Op Shoulder
+812,49,F,Lower Back Pain
+813,72,M,Knee Osteoarthritis
+814,57,Other,Knee Osteoarthritis
+815,67,M,Knee Osteoarthritis
+816,37,M,Lower Back Pain
+817,58,M,Post-Op Shoulder
+818,65,F,Lower Back Pain
+819,55,F,Lower Back Pain
+820,67,M,Post-Op Shoulder
+821,48,M,Post-Op Shoulder
+822,71,F,Lower Back Pain
+823,82,M,Lower Back Pain
+824,50,F,Lower Back Pain
+825,49,F,Lower Back Pain
+826,72,F,Lower Back Pain
+827,73,F,Lower Back Pain
+828,48,M,Knee Osteoarthritis
+829,49,Other,Post-Op Shoulder
+830,51,F,Knee Osteoarthritis
+831,38,F,Knee Osteoarthritis
+832,43,M,Lower Back Pain
+833,42,F,Neck Pain
+834,45,M,Post-Op Shoulder
+835,54,M,Post-Op Shoulder
+836,57,M,Post-Op Shoulder
+837,73,F,Neck Pain
+838,43,F,Knee Osteoarthritis
+839,66,F,Lower Back Pain
+840,52,F,Knee Osteoarthritis
+841,54,M,Post-Op Shoulder
+842,63,F,Post-Op Shoulder
+843,41,M,Knee Osteoarthritis
+844,59,F,Lower Back Pain
+845,56,F,Lower Back Pain
+846,60,F,Neck Pain
+847,58,F,Knee Osteoarthritis
+848,84,M,Knee Osteoarthritis
+849,47,M,Lower Back Pain
+850,48,F,Lower Back Pain
+851,47,M,Post-Op Shoulder
+852,48,M,Knee Osteoarthritis
+853,47,M,Post-Op Shoulder
+854,69,F,Knee Osteoarthritis
+855,72,M,Knee Osteoarthritis
+856,48,M,Lower Back Pain
+857,45,F,Post-Op Shoulder
+858,60,F,Knee Osteoarthritis
+859,48,M,Knee Osteoarthritis
+860,62,M,Knee Osteoarthritis
+861,57,M,Neck Pain
+862,36,M,Lower Back Pain
+863,73,M,Post-Op Shoulder
+864,76,F,Lower Back Pain
+865,47,F,Knee Osteoarthritis
+866,50,F,Lower Back Pain
+867,58,M,Lower Back Pain
+868,59,F,Knee Osteoarthritis
+869,62,M,Lower Back Pain
+870,79,F,Knee Osteoarthritis
+871,52,F,Neck Pain
+872,45,M,Lower Back Pain
+873,38,F,Post-Op Shoulder
+874,46,M,Knee Osteoarthritis
+875,54,F,Knee Osteoarthritis
+876,76,M,Lower Back Pain
+877,48,M,Lower Back Pain
+878,57,F,Lower Back Pain
+879,54,M,Lower Back Pain
+880,69,F,Lower Back Pain
+881,85,M,Knee Osteoarthritis
+882,48,F,Post-Op Shoulder
+883,49,F,Post-Op Shoulder
+884,67,F,Knee Osteoarthritis
+885,63,M,Lower Back Pain
+886,77,M,Lower Back Pain
+887,62,M,Lower Back Pain
+888,50,M,Lower Back Pain
+889,62,F,Knee Osteoarthritis
+890,68,F,Knee Osteoarthritis
+891,64,F,Lower Back Pain
+892,61,F,Lower Back Pain
+893,67,F,Post-Op Shoulder
+894,69,F,Post-Op Shoulder
+895,71,M,Lower Back Pain
+896,62,F,Neck Pain
+897,52,F,Neck Pain
+898,56,F,Lower Back Pain
+899,69,M,Lower Back Pain
+900,45,M,Knee Osteoarthritis
+901,59,M,Neck Pain
+902,50,F,Post-Op Shoulder
+903,55,F,Lower Back Pain
+904,70,M,Lower Back Pain
+905,57,F,Knee Osteoarthritis
+906,55,M,Knee Osteoarthritis
+907,38,M,Lower Back Pain
+908,63,M,Post-Op Shoulder
+909,62,F,Knee Osteoarthritis
+910,80,F,Post-Op Shoulder
+911,51,M,Post-Op Shoulder
+912,57,F,Post-Op Shoulder
+913,57,M,Knee Osteoarthritis
+914,73,F,Knee Osteoarthritis
+915,53,F,Lower Back Pain
+916,58,F,Knee Osteoarthritis
+917,62,M,Lower Back Pain
+918,57,F,Knee Osteoarthritis
+919,49,F,Lower Back Pain
+920,57,M,Lower Back Pain
+921,67,F,Lower Back Pain
+922,42,M,Lower Back Pain
+923,56,F,Post-Op Shoulder
+924,46,M,Post-Op Shoulder
+925,69,F,Knee Osteoarthritis
+926,36,F,Lower Back Pain
+927,48,M,Lower Back Pain
+928,59,M,Lower Back Pain
+929,73,M,Lower Back Pain
+930,54,M,Post-Op Shoulder
+931,48,M,Lower Back Pain
+932,77,F,Lower Back Pain
+933,37,M,Lower Back Pain
+934,28,M,Lower Back Pain
+935,60,F,Knee Osteoarthritis
+936,48,M,Knee Osteoarthritis
+937,42,F,Lower Back Pain
+938,63,F,Lower Back Pain
+939,57,F,Lower Back Pain
+940,48,F,Lower Back Pain
+941,39,F,Lower Back Pain
+942,65,M,Neck Pain
+943,62,M,Knee Osteoarthritis
+944,53,M,Knee Osteoarthritis
+945,77,F,Knee Osteoarthritis
+946,42,M,Knee Osteoarthritis
+947,36,F,Knee Osteoarthritis
+948,46,Other,Knee Osteoarthritis
+949,54,F,Post-Op Shoulder
+950,57,F,Lower Back Pain
+951,52,M,Knee Osteoarthritis
+952,59,F,Knee Osteoarthritis
+953,39,F,Post-Op Shoulder
+954,72,M,Knee Osteoarthritis
+955,54,M,Knee Osteoarthritis
+956,68,F,Lower Back Pain
+957,59,F,Knee Osteoarthritis
+958,60,F,Lower Back Pain
+959,61,F,Lower Back Pain
+960,60,F,Lower Back Pain
+961,62,F,Knee Osteoarthritis
+962,70,M,Lower Back Pain
+963,57,M,Lower Back Pain
+964,63,M,Post-Op Shoulder
+965,53,F,Lower Back Pain
+966,72,F,Knee Osteoarthritis
+967,46,F,Knee Osteoarthritis
+968,76,M,Lower Back Pain
+969,54,F,Post-Op Shoulder
+970,37,F,Lower Back Pain
+971,56,F,Knee Osteoarthritis
+972,46,F,Knee Osteoarthritis
+973,65,M,Knee Osteoarthritis
+974,47,F,Knee Osteoarthritis
+975,49,M,Lower Back Pain
+976,32,M,Lower Back Pain
+977,49,M,Post-Op Shoulder
+978,25,F,Knee Osteoarthritis
+979,35,F,Post-Op Shoulder
+980,64,F,Post-Op Shoulder
+981,64,F,Post-Op Shoulder
+982,60,F,Knee Osteoarthritis
+983,43,F,Lower Back Pain
+984,54,M,Post-Op Shoulder
+985,54,M,Knee Osteoarthritis
+986,41,M,Lower Back Pain
+987,73,M,Post-Op Shoulder
+988,65,M,Post-Op Shoulder
+989,52,M,Knee Osteoarthritis
+990,55,M,Lower Back Pain
+991,57,F,Lower Back Pain
+992,30,M,Post-Op Shoulder
+993,52,M,Neck Pain
+994,46,M,Lower Back Pain
+995,42,F,Lower Back Pain
+996,51,M,Post-Op Shoulder
+997,76,M,Lower Back Pain
+998,62,F,Knee Osteoarthritis
+999,48,M,Neck Pain
+1000,61,M,Lower Back Pain
