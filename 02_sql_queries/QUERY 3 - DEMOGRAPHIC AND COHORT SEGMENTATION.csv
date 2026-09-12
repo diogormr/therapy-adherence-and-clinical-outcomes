@@ -1,0 +1,13 @@
+"condition","age_group","patient_count","adherence_rate"
+"Knee Osteoarthritis","Under 40",29,59.77
+"Knee Osteoarthritis","40 - 59",166,61.90
+"Knee Osteoarthritis","60 and Over",97,60.82
+"Lower Back Pain","Under 40",44,64.68
+"Lower Back Pain","40 - 59",239,60.84
+"Lower Back Pain","60 and Over",128,55.34
+"Neck Pain","Under 40",8,53.13
+"Neck Pain","40 - 59",56,59.00
+"Neck Pain","60 and Over",33,58.59
+"Post-Op Shoulder","Under 40",17,71.08
+"Post-Op Shoulder","40 - 59",111,58.82
+"Post-Op Shoulder","60 and Over",72,51.45

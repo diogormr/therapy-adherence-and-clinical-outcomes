@@ -1,0 +1,3 @@
+"adherence_cohort","total_patients","avg_adherence_rate","avg_baseline_pain","avg_final_pain","avg_pain_reduction"
+"High adherence (>=70%)",436,83.88,7.43,1.63,5.81
+"Low adherence (<70%)",564,40.63,7.55,5.49,2.05
