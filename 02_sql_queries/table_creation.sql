@@ -14,7 +14,7 @@ plan_id int primary key,
 patient_id int references patients(patient_id),
 start_date date,
 end_date date,
-prescribed_sessions_per_week INT
+prescribed_sessions_per_week int
 );
 
 -- Creating "session_logs" table

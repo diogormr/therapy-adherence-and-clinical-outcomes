@@ -1,4 +1,3 @@
-
 -- QUERY 1 - CLINICAL EFFICACY ANALYSIS
 -- Do patients who stick to the digital program experience a greater reduction in pain than those who do not?
 
