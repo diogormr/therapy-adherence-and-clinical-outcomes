@@ -22,10 +22,10 @@ Designed and deployed an end-to-end clinical analytics pipeline that simulates p
 
 ### Phase 2: Database Design & Querying (PostgreSQL)
 - Modeled a PostgreSQL star schema optimized for analytical querying across patient cohorts.
-- 📄 Code: ['02_sql_queries/00_table_creation.sql'](02_sql_queries/00_table_creation.sql)
+- 📄 Code: ['02_sql_structuring_and_queries/00_table_creation.sql'](02_sql_structuring_and_queries/00_table_creation.sql)
 - Leveraged Window Functions, CTEs, and conditional aggregation to calculate adherence rates and clinical efficacy, build an operational alert system for low-adherence patients, and segment patients by demographics and cohort.
-- 📄 Code: ['02_sql_queries'](02_sql_queries)
-- 🗃️ SQL Outputs: ['02_sql_queries'](02_sql_queries)
+- 📄 Code: ['02_sql_structuring_and_queries'](02_sql_structuring_and_queries)
+- 🗃️ SQL Outputs: ['02_sql_structuring_and_queries'](02_sql_structuring_and_queries)
 
 ### Phase 3: Data Visualization & Statistics (Python - Seaborn and SciPy)
 
