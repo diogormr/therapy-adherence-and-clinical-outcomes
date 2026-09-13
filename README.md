@@ -22,7 +22,7 @@ Designed and deployed an end-to-end clinical analytics pipeline that simulates p
 
 ### Phase 2: Database Design & Querying (PostgreSQL)
 - Modeled a PostgreSQL star schema optimized for analytical querying across patient cohorts.
-- 📄 Code: ['02_sql_queries/00_table_creation'](02_sql_queries/00_table_creation)
+- 📄 Code: ['02_sql_queries/00_table_creation.sql'](02_sql_queries/00_table_creation.sql)
 - Leveraged Window Functions, CTEs, and conditional aggregation to calculate adherence rates and clinical efficacy, build an operational alert system for low-adherence patients, and segment patients by demographics and cohort.
 - 📄 Code: ['02_sql_queries'](02_sql_queries)
 - 🗃️ SQL Outputs: ['02_sql_queries'](02_sql_queries)
@@ -32,13 +32,12 @@ Designed and deployed an end-to-end clinical analytics pipeline that simulates p
 - Built Seaborn box plots to compare pain reduction distributions between High Adherence (≥ 70%) and Low Adherence (< 70%) cohorts, alongside a scatter plot with a linear regression trendline mapping pain reduction against continuous adherence rates.
 - 📊 Plots: ![`03_plotting_and_stats/pain_vs_adherence_seaborn_plots.png`](03_plotting_and_stats/pain_vs_adherence_seaborn_plots.png)
 - Employed a Welch’s t-test in SciPy to confirm a statistically significant difference in pain reduction between adherence groups ($p < 0.001$), and calculated a strong positive Pearson correlation coefficient to quantify the strength of the linear relationship between treatment adherence and clinical outcomes ($r = 0.724, p < 0.001$).
-- 📄 Code: [`03_plotting_and_stats/plotting_and_stats`](03_plotting_and_stats/plotting_and_stats)
+- 📄 Code: [`03_plotting_and_stats/plotting_and_stats.ipynb`](03_plotting_and_stats/plotting_and_stats.ipynb)
 
 ### Phase 4: BI Reporting (Power BI & DAX)
 
 - Built an interactive Power BI report featuring dynamic demographic slicers and automated conditional formatting to flag high-risk patients ($< 50\%$ adherence).
 - Identified 318 at-risk patients (31.8% of cohort), with the lowest adherence concentrated in the 56+ age demographic suffering from Lower Back Pain and Knee Osteoarthritis.
 - 📄 Documentation: 04_power_bi_dashboard/dax_measures.md
-
-
-🗃️📊
+- 💾 Power BI File: ![`04_power_bi_report/bi_report.pbix`](04_power_bi_report/bi_report.pbix)
+- 📊 Dashboard: ![`03_plotting_and_stats/pain_vs_adherence_seaborn_plots.png`](03_plotting_and_stats/pain_vs_adherence_seaborn_plots.png)
