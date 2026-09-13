@@ -6,10 +6,10 @@ Designed and deployed an end-to-end clinical analytics pipeline that simulates p
 
 ## 🛠️ Tech Stack & System Requirements
 
-Languages & Libraries: Python 3.13.9 (pandas, numpy, matplotlib, seaborn, scipy)
-Database Management: PostgreSQL 18 / pgAdmin 4
-Business Intelligence: Power BI Desktop (DAX Modeling)
-Dependencies: Documented in 📄 [`requirements.txt`](requirements.txt)
+- Languages & Libraries: Python 3.13.9 (pandas, numpy, matplotlib, seaborn, scipy)
+- Database Management: PostgreSQL 18 / pgAdmin 4
+- Business Intelligence: Power BI Desktop (DAX Modeling)
+- Dependencies: Documented in 📄 [`requirements.txt`](requirements.txt)
 
 ## 🚀 Project Pipeline
 
