@@ -18,7 +18,7 @@ Designed and deployed an end-to-end clinical analytics pipeline that simulates p
 - Generated a synthetic multi-table relational dataset containing treatment plans, session logs, and clinical assessments from 1,000 patients that mirrors real-world digital health engagement patterns.
 - Modeled higher pain score reductions for high-adherence (≥ 70%) patients using probability distributions.
 - 📄 Code: [`01_data_generation/data_generation.ipynb`](01_data_generation/data_generation.ipynb)
-- 🗃️ Data: [`01_data_generation/data`](01_data_generation/data.ipynb)
+- 🗃️ Data: [`01_data_generation/data`](01_data_generation/data)
 
 ### Phase 2: Database Design & Querying (PostgreSQL)
 - Modeled a PostgreSQL star schema optimized for analytical querying across patient cohorts.
