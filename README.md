@@ -17,7 +17,7 @@ Designed and deployed an end-to-end clinical analytics pipeline that simulates p
 
 - Scripted a multi-table relational dataset generating 1,000 synthetic patient records, session logs, and clinical assessments using numpy and random to mirror real-world digital health engagement patterns.
 - Enforced primary/foreign key constraints across patient demographics, attendance tracking, and baseline vs. final pain score assessments.
-- 📄 Code: 01_data_generation/generate_synthetic_data.py
+- 📄 Code: [`01_data_generation/data_generation.ipynb`](01_data_generation/data_generation.ipynb)
 
 ### Phase 2: Database Design & Relational SQL (PostgreSQL)
 - Modeled a PostgreSQL star schema optimized for performant analytical queries across patient cohorts.
