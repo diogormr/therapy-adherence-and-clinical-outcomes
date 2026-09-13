@@ -20,9 +20,10 @@ Designed and deployed an end-to-end clinical analytics pipeline that simulates p
 - 📄 Code: [`01_data_generation/data_generation.ipynb`](01_data_generation/data_generation.ipynb)
 - 🗃️ Data: [`01_data_generation/data`](01_data_generation/data.ipynb)
 
-### Phase 2: Database Design & Structuring (PostgreSQL)
+### Phase 2: Database Design & Querying (PostgreSQL)
 - Modeled a PostgreSQL star schema optimized for analytical querying across patient cohorts.
-- Authored SQL queries utilizing Window Functions, CTEs, and conditional aggregation to calculate adherence rates and cohort drop-off percentages prior to BI ingestion.
+- 📄 Code: ['02_sql_queries/00_table_creation'](02_sql_queries/00_table_creation)
+- Performed SQL queries utilizing Window Functions, CTEs, and conditional aggregation to calculate clinical efficacy, adherence rates and cohort drop-off percentages prior to BI ingestion.
 - 📄 Code: ['02_sql_queries'](02_sql_queries)
 - 🗃️ SQL Outputs: ['02_sql_queries'](02_sql_queries)
 
