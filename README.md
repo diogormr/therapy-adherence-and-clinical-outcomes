@@ -18,16 +18,25 @@ Designed and deployed an end-to-end clinical analytics pipeline that simulates p
 - Generated a synthetic multi-table relational dataset containing treatment plans, session logs, and clinical assessments from 1,000 patients that mirrors real-world digital health engagement patterns.
 - Modeled higher pain score reductions for high-adherence (≥ 70%) patients using probability distributions.
 - 📄 Code: [`01_data_generation/data_generation.ipynb`](01_data_generation/data_generation.ipynb)
+- 🗃️ Data: [`01_data_generation/data`](01_data_generation/data.ipynb)
 
-### Phase 2: Database Design & Relational SQL (PostgreSQL)
-- Modeled a PostgreSQL star schema optimized for performant analytical queries across patient cohorts.
-- Authored SQL queries utilizing Window Functions, CTEs, and conditional aggregation to calculate adherence rates and cohort drop-off percentages prior to BI ingestion.📄 Code: 02_sql_queries/cohort_adherence_analysis.sql
+### Phase 2: Database Design & Structuring (PostgreSQL)
+- Modeled a PostgreSQL star schema optimized for analytical querying across patient cohorts.
+- Authored SQL queries utilizing Window Functions, CTEs, and conditional aggregation to calculate adherence rates and cohort drop-off percentages prior to BI ingestion.
+- 📄 Code: ['02_sql_queries'](02_sql_queries)
+- 🗃️ SQL Outputs: ['02_sql_queries'](02_sql_queries)
 
 ### Phase 3: Data Visualization & Inferential Statistics (Python - Seaborn and SciPy)
 
-- Built heatmaps and distribution plots using seaborn and matplotlib to isolate potential collinearity between age brackets, treatment conditions, and adherence rates.📄 Code: 03_python_eda/eda_and_statistics.ipynb
+- Built heatmaps and distribution plots using seaborn and matplotlib to isolate potential collinearity between age brackets, treatment conditions, and adherence rates.
+- 📄 Code: 03_python_eda/eda_and_statistics.ipynb
 - Conducted Welch's Two-Sample t-test (scipy.stats.ttest_ind, equal_var=False) comparing high-adherence ($\ge 70\%$) and low-adherence ($< 70\%$) patient cohorts, confirming a statistically significant difference in pain score reduction ($p < 0.05$).
 
 ### Phase 4: BI Reporting (Power BI & DAX)
 
-- Built an interactive Power BI report featuring dynamic demographic slicers and automated conditional formatting to flag high-risk patients ($< 50\%$ adherence).Clinical Insight: Identified 318 at-risk patients (31.8% of cohort), with the lowest adherence concentrated in the 56+ age demographic suffering from Lower Back Pain and Knee Osteoarthritis.📄 Documentation: 04_power_bi_dashboard/dax_measures.md
+- Built an interactive Power BI report featuring dynamic demographic slicers and automated conditional formatting to flag high-risk patients ($< 50\%$ adherence).
+- Identified 318 at-risk patients (31.8% of cohort), with the lowest adherence concentrated in the 56+ age demographic suffering from Lower Back Pain and Knee Osteoarthritis.
+- 📄 Documentation: 04_power_bi_dashboard/dax_measures.md
+
+
+🗃️📊
