@@ -36,8 +36,9 @@ Designed and deployed an end-to-end clinical analytics pipeline that simulates p
 
 ### Phase 4: BI Reporting (Power BI & DAX)
 
-- Built an interactive Power BI report featuring dynamic demographic slicers and automated conditional formatting to flag high-risk patients ($< 50\%$ adherence).
-- Identified 318 at-risk patients (31.8% of cohort), with the lowest adherence concentrated in the 56+ age demographic suffering from Lower Back Pain and Knee Osteoarthritis.
-- 📄 Documentation: 04_power_bi_dashboard/dax_measures.md
+- Constructed an interactive Power BI dashboard featuring dynamic demographic slicers and DAX conditional formatting to flag "at-risk" patients (< 50% adherence).
+- Identified 318 "at-risk patients", and isolated the lowest engagement cohort in patients aged 56+ undergoing Post-Op Shoulder rehabilitation.
+- Built a scatter plot and line chart to model pain score reduction against patient adherence rates over an 8-week period.
+- 📄 DAX Measures: [`04_power_bi_report/dax_measures.md`](04_power_bi_report/dax_measures.md)
 - 💾 Power BI File: ![`04_power_bi_report/bi_report.pbix`](04_power_bi_report/bi_report.pbix)
-- 📊 Dashboard: ![`04_power_bi_report/bi_dashboard.pdf`](04_power_bi_report/bi_dashboard.pdf)
+- 📊 Dashboard: ![`04_power_bi_report/bi_dashboard.png`](04_power_bi_report/bi_dashboard.png)
