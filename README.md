@@ -30,7 +30,7 @@ Designed and deployed an end-to-end clinical analytics pipeline that simulates p
 ### Phase 3: Data Visualization & Statistics (Python - Seaborn and SciPy)
 
 - Built Seaborn box plots to compare pain reduction distributions between High Adherence (≥ 70%) and Low Adherence (< 70%) cohorts, alongside a scatter plot with a linear regression trendline mapping pain reduction against continuous adherence rates.
-- 📊 Plots: ![`03_plotting_and_stats/pain_vs_adherence_seaborn_plots`](03_plotting_and_stats/pain_vs_adherence_seaborn_plots)
+- 📊 Plots: ![`03_plotting_and_stats/pain_vs_adherence_seaborn_plots.png`](03_plotting_and_stats/pain_vs_adherence_seaborn_plots.png)
 - Employed a Welch’s t-test in SciPy to confirm a statistically significant difference in pain reduction between adherence groups ($p < 0.001$), and calculated a strong positive Pearson correlation coefficient to quantify the strength of the linear relationship between treatment adherence and clinical outcomes ($r = 0.724, p < 0.001$).
 - 📄 Code: [`03_plotting_and_stats/plotting_and_stats`](03_plotting_and_stats/plotting_and_stats)
 
