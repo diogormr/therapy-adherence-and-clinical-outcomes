@@ -27,11 +27,12 @@ Designed and deployed an end-to-end clinical analytics pipeline that simulates p
 - 📄 Code: ['02_sql_queries'](02_sql_queries)
 - 🗃️ SQL Outputs: ['02_sql_queries'](02_sql_queries)
 
-### Phase 3: Data Visualization & Inferential Statistics (Python - Seaborn and SciPy)
+### Phase 3: Data Visualization & Statistics (Python - Seaborn and SciPy)
 
-- Built heatmaps and distribution plots using seaborn and matplotlib to isolate potential collinearity between age brackets, treatment conditions, and adherence rates.
-- Conducted Welch's Two-Sample t-test (scipy.stats.ttest_ind, equal_var=False) comparing high-adherence ($\ge 70\%$) and low-adherence ($< 70\%$) patient cohorts, confirming a statistically significant difference in pain score reduction ($p < 0.05$).
-- 📄 Code: 03_python_eda/eda_and_statistics.ipynb
+- Built Seaborn box plots to compare pain reduction distributions between High Adherence (≥ 70%) and Low Adherence (< 70%) cohorts, alongside a scatter plot with a linear regression trendline mapping pain reduction against continuous adherence rates.
+- 📊 Plots: ![`03_plotting_and_stats/pain_vs_adherence_seaborn_plots`](03_plotting_and_stats/pain_vs_adherence_seaborn_plots)
+- Employed a Welch’s t-test in SciPy to confirm a statistically significant difference in pain reduction between adherence groups ($p < 0.001$), and calculated a strong positive Pearson correlation coefficient to quantify the strength of the linear relationship between treatment adherence and clinical outcomes ($r = 0.724, p < 0.001$).
+- 📄 Code: [`03_plotting_and_stats/plotting_and_stats`](03_plotting_and_stats/plotting_and_stats)
 
 ### Phase 4: BI Reporting (Power BI & DAX)
 
