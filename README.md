@@ -40,4 +40,4 @@ Designed and deployed an end-to-end clinical analytics pipeline that simulates p
 - Identified 318 at-risk patients (31.8% of cohort), with the lowest adherence concentrated in the 56+ age demographic suffering from Lower Back Pain and Knee Osteoarthritis.
 - 📄 Documentation: 04_power_bi_dashboard/dax_measures.md
 - 💾 Power BI File: ![`04_power_bi_report/bi_report.pbix`](04_power_bi_report/bi_report.pbix)
-- 📊 Dashboard: ![`03_plotting_and_stats/pain_vs_adherence_seaborn_plots.png`](03_plotting_and_stats/pain_vs_adherence_seaborn_plots.png)
+- 📊 Dashboard: ![`04_power_bi_report/bi_dashboard.pdf`](04_power_bi_report/bi_dashboard.pdf)
