@@ -1,17 +1,17 @@
 # Digital Therapy Adherence & Clinical Outcomes
 
-## 📌 Summary
+## Summary
 
 Designed and deployed an end-to-end clinical analytics pipeline that simulates patient adherence to a digital musculoskeletal therapy program and individual clinical outcomes. This project generates synthetic healthcare data in Python, and uses PostgreSQL to structure data relationships via a star schema and run analytical SQL queries. It then performs statistical testing and plotting using SciPy and Seaborn, and delivers an interactive Power BI dashboard that evaluates treatment efficacy and flags low-adherence "at-risk" patients. Patients with high adherence rates demonstrated a statistically significant reduction in pain scores compared to low-adherence patients.
 
-## 🛠️ Tech Stack & System Requirements
+## Tech Stack & System Requirements
 
 - Languages & Libraries: Python 3.13.9 (pandas, numpy, matplotlib, seaborn, scipy)
 - Database Management: PostgreSQL 18 / pgAdmin 4
 - Business Intelligence: Power BI Desktop (DAX Modeling)
 - Dependencies: Documented in 📄 [`requirements.txt`](requirements.txt)
 
-## 🚀 Project Pipeline
+## Project Pipeline
 
 ### Phase 1: Synthetic Data Generation (Python - NumPy and Pandas)
 
